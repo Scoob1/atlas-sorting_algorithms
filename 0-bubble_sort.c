@@ -1,22 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-/**
- * print_array - prints an array of integars
- * @array: the array to print
- * @size: the size of the array
- */
-
-void print_array(int *array, size_t size)
-{
-	size_t i;
-
-	for (i = 0; i < size; i++)
-	{
-		printf("%d, ", array[i]);
-	}
-	printf("\n");
-}
+#include "sort.h"
 
 /**
  * bubble_sort - sorts an array of integars in ascending order using bubble
